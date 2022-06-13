@@ -30,3 +30,18 @@
   height: 6px;
   border-radius: 3px;
 }
+
+.nav__updater {
+  position: relative;
+}
+
+.nav__dot {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  display: flex;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
