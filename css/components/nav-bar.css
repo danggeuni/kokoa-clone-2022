@@ -19,16 +19,6 @@
   position: absolute;
   left: 20px;
   bottom: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 25px;
-  height: 25px;
-  border-radius: 12.5px;
-  background-color: tomato;
-  color: white;
-  font-size: 12px;
-  font-weight: 600;
 }
 
 .nav__update {
