@@ -1,21 +1,3 @@
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding-bottom: 25px;
-}
-
-.find-icons__icon span {
-  margin-top: 18px;
-}
-
 .recommended-friends {
   padding-top: 15px;
   color: rgba(0, 0, 0, 0.4);
@@ -26,16 +8,15 @@
 .recommended-friends span:last-child {
   display: block;
   text-align: center;
-  margin: 100px 0px;
+  margin: 130px 0px;
   font-size: 18px;
 }
 
 .open-chat__header {
-  margin-top: 15px;
+  margin: 15px 0px;
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.4);
-  margin-bottom: 25px;
 }
 
 .open-chat__header span {
