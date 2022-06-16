@@ -4,10 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>More - Kokoa Clone</title>
+    <title>Setting - Kokoa Clone</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
@@ -25,66 +24,58 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">More</h1>
+      <i class="fa-solid fa-angle-left fa-2x"></i>
+      <h1 class="screen-header__title">Settings</h1>
       <div class="screen-header__icon">
         <a><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
-        <a><i class="fa-solid fa-music fa-lg"></i></a>
-        <a href="setting.html"><i class="fa-solid fa-gear fa-lg"></i></a>
       </div>
     </header>
 
-    <main class="main-screen more-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar"
-            src="01.jpg"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Juno</h4>
-            <h6 class="user-component__subtitle">+82-010-1234-5678</h6>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span class=""><i class="fa-regular fa-message fa-2x"></i></span>
-        </div>
+    <div class="setting-menu">
+      <div class="setting-menu__icon">
+        <span><i class="fa-solid fa-bullhorn"></i></span>
+        <span>Notices</span>
       </div>
-
-      <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="fa-regular fa-calendar-check fa-2x"></i>
-          <span>Calendar</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-solid fa-chalkboard fa-2x"></i>
-          <span>Talk Drive</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-regular fa-face-smile-wink fa-2x"></i>
-          <span>Emoticons</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-regular fa-floppy-disk fa-2x"></i>
-          <span>Themes</span>
-        </div>
+      <div class="setting-menu__icon">
+        <span><i class="fa-solid fa-flask"></i></span>
+        <span>Kakao Lab</span>
       </div>
-
-      <div class="suggestions__text">
-        <span>Suggestions</span>
+      <div class="setting-menu__icon version">
+        <div class="setting-menu__version">
+          <span><i class="fa-solid fa-circle-info"></i></span>
+          <span>Version</span>
+        </div>
+        <span class="version__text">Latest Version</span>
       </div>
-
-      <div class="suggestions">
-        <div class="suggestions__content">
-          <img src="01.png" /><span>Kakao Story</span>
-        </div>
-        <div class="suggestions__content">
-          <img src="01.png" /><span>Kakao Friends</span>
-        </div>
-        <div class="suggestions__content">
-          <img src="01.png" /><span>Friends Gem</span>
-        </div>
+      <div class="setting-menu__icon">
+        <span><i class="fa-solid fa-lock"></i></span>
+        <span>Privacy</span>
       </div>
-    </main>
+      <div class="setting-menu__icon">
+        <span><i class="fa-regular fa-bell"></i></span>
+        <span>Notifications</span>
+      </div>
+      <div class="setting-menu__icon">
+        <span><i class="fa-regular fa-user"></i></span>
+        <span>Friends</span>
+      </div>
+      <div class="setting-menu__icon">
+        <span><i class="fa-regular fa-comment"></i></span>
+        <span>Chats</span>
+      </div>
+      <div class="setting-menu__icon">
+        <span><i class="fa-regular fa-sun"></i></span>
+        <span>Display</span>
+      </div>
+      <div class="setting-menu__icon">
+        <span><i class="fa-solid fa-brush"></i></span>
+        <span>Themes</span>
+      </div>
+      <div class="setting-menu__icon">
+        <span><i class="fa-solid fa-phone"></i></span>
+        <span>Call</span>
+      </div>
+    </div>
 
     <nav class="nav">
       <ul class="nav__list">
