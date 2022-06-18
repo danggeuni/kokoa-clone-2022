@@ -70,6 +70,24 @@
   color: #ffb0e0;
 }
 
+@keyframes heartBeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s ease-in-out infinite;
+}
+
 .open-post__heart-count {
   position: absolute;
   display: flex;
